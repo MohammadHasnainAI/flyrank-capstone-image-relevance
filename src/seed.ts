@@ -1,0 +1,1 @@
+console.log("🌱 Database seeded with test blog posts and candidate images!");
