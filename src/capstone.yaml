@@ -1,0 +1,5 @@
+version: "1.0"
+run: "npx tsx src/index.ts"
+seed: "npx tsx src/seed.ts"
+test: "npx tsx src/test.ts"
+base_url: "http://localhost:3000"

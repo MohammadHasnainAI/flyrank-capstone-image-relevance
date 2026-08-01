@@ -1,0 +1,24 @@
+{
+  "name": "flyrank-capstone-image-relevance",
+  "version": "1.0.0",
+  "description": "AI Image Understanding & Content Matching Engine",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "seed": "tsx src/seed.ts",
+    "test": "tsx src/test.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
